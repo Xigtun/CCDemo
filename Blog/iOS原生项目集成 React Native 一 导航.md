@@ -203,9 +203,11 @@ var Native = NativeModules.RNBridge;
 
 现在总结一下现有的跳转方式
 
-Native -> Native  Router
-RN -> RN  StackNavigator
-RN -> Native Router
+   --   |     --
+------------- | -------------
+ Native -> Native  | Router 
+RN -> RN  		| StackNavigator
+RN -> Native | Router
 
 还有一种 Native -> RN 这种还是使用比较原始的方法，我们可以再封装一层，统一使用 Router 的方式跳转。
 
