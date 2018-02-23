@@ -2,7 +2,7 @@
 
 先来看一下完整效果
 
-
+![完整效果](https://github.com/Xigtun/CCDemo/blob/master/Blog/Source/frame.gif)
 
 集成 RN 的步骤请参照 [官方文档](https://reactnative.cn/docs/0.51/integration-with-existing-apps.html#content)。
 这里注意一下项目的目录结构，所有 RN 相关均在 `ReactNative` 目录下。
