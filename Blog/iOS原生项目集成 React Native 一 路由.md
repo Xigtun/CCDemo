@@ -121,7 +121,7 @@ Demo中选用了 [JLRoutes](https://github.com/joeldev/JLRoutes) 方案。
 来实现跳转了。
 [demo 地址](https://github.com/Xigtun/CCDemo) tag： router
 
-与原生页面相互跳转见下节 `iOS原生项目集成 React Native 一 路由` 稍后待续
+与原生页面相互跳转见下节 [iOS原生项目集成 React Native 一 导航](https://github.com/Xigtun/CCDemo/blob/master/Blog/iOS%E5%8E%9F%E7%94%9F%E9%A1%B9%E7%9B%AE%E9%9B%86%E6%88%90%20React%20Native%20%E4%B8%80%20%E5%AF%BC%E8%88%AA.md)
 
 
 
