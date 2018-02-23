@@ -18,4 +18,6 @@
 
 - (void)pushToVC:(NSString *)vcName paramters:(NSDictionary *)para;
 
+- (void)popViewController:(BOOL)animated;
+
 @end

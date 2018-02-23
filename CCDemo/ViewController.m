@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-//#import "CCOneController.h"
+#import <React/RCTRootView.h>
 
 @interface ViewController ()
 
@@ -18,15 +18,27 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"CCDemo";
+    self.navigationController.interactivePopGestureRecognizer.enabled = YES;
+//    [self.navigationController setNavigationBarHidden:YES animated:YES];
+
+
 }
 
 - (IBAction)pushAction:(id)sender {
+    
     NSDictionary *para = @{
                            @"labelText" : @"CCOneController-labelText",
                            };
     [[CCRouterManager sharedInstance] pushToVC:@"CCOneController" paramters:para];
-//    CCOneController *vc = [[CCOneController alloc] init];
-//    [self.navigationController pushViewController:vc animated:YES];
+}
+
+
+- (IBAction)ToRN1Scene:(id)sender {
+    NSDictionary *para = @{
+                           @"moduleName" : @"DemoRN",
+                           @"bundlePath" : @"http://localhost:8081/index.ios.bundle?platform=ios",
+                           };
+    [[CCRouterManager sharedInstance] pushToVC:@"CCRNContainer" paramters:para];
 }
 
 

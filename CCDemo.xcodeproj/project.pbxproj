@@ -17,6 +17,8 @@
 		431606A6202ACBA10081E971 /* CCBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 431606A5202ACBA10081E971 /* CCBaseViewController.m */; };
 		431606A9202AD0570081E971 /* CCRouterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 431606A8202AD0570081E971 /* CCRouterManager.m */; };
 		431606AC202AD5070081E971 /* CCUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 431606AB202AD5070081E971 /* CCUtils.m */; };
+		439E0BCF203FF31000623A75 /* CCRNBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 439E0BCE203FF31000623A75 /* CCRNBridge.m */; };
+		439E0BD2203FF70A00623A75 /* CCRNContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 439E0BD1203FF70A00623A75 /* CCRNContainer.m */; };
 		D5C7DB2C14E2C9380A27B42C /* libPods-CCDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E58A340F2D085F40005D7287 /* libPods-CCDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +42,10 @@
 		431606AA202AD5070081E971 /* CCUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCUtils.h; sourceTree = "<group>"; };
 		431606AB202AD5070081E971 /* CCUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCUtils.m; sourceTree = "<group>"; };
 		431606AD202AD6150081E971 /* CCDemo-pch.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CCDemo-pch.pch"; sourceTree = "<group>"; };
+		439E0BCD203FF31000623A75 /* CCRNBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCRNBridge.h; sourceTree = "<group>"; };
+		439E0BCE203FF31000623A75 /* CCRNBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCRNBridge.m; sourceTree = "<group>"; };
+		439E0BD0203FF70A00623A75 /* CCRNContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCRNContainer.h; sourceTree = "<group>"; };
+		439E0BD1203FF70A00623A75 /* CCRNContainer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCRNContainer.m; sourceTree = "<group>"; };
 		7C44607F24AF12DF4D8AC6EA /* Pods-CCDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCDemo/Pods-CCDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		E58A340F2D085F40005D7287 /* libPods-CCDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC0CB3978C20F7E4013320A /* Pods-CCDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCDemo/Pods-CCDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -88,6 +94,10 @@
 				431606A2202ACB880081E971 /* CCOneController.m */,
 				431606A7202AD0570081E971 /* CCRouterManager.h */,
 				431606A8202AD0570081E971 /* CCRouterManager.m */,
+				439E0BCD203FF31000623A75 /* CCRNBridge.h */,
+				439E0BCE203FF31000623A75 /* CCRNBridge.m */,
+				439E0BD0203FF70A00623A75 /* CCRNContainer.h */,
+				439E0BD1203FF70A00623A75 /* CCRNContainer.m */,
 				431606AA202AD5070081E971 /* CCUtils.h */,
 				431606AB202AD5070081E971 /* CCUtils.m */,
 				4316068E202ACAA70081E971 /* Main.storyboard */,
@@ -244,6 +254,8 @@
 			files = (
 				431606AC202AD5070081E971 /* CCUtils.m in Sources */,
 				431606A6202ACBA10081E971 /* CCBaseViewController.m in Sources */,
+				439E0BD2203FF70A00623A75 /* CCRNContainer.m in Sources */,
+				439E0BCF203FF31000623A75 /* CCRNBridge.m in Sources */,
 				431606A3202ACB880081E971 /* CCOneController.m in Sources */,
 				431606A9202AD0570081E971 /* CCRouterManager.m in Sources */,
 				4316068D202ACAA70081E971 /* ViewController.m in Sources */,

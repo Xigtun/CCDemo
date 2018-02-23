@@ -50,7 +50,10 @@
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:rootPath]];
 }
 
-
+- (void)popViewController:(BOOL)animated
+{
+    [[AppDelegate sharedDelegate].currentVC popViewControllerAnimated:animated];
+}
 
 #pragma mark  - private method
 - (void)paramToVc:(UIViewController *) v param:(NSDictionary<NSString *,NSString *> *)parameters {
