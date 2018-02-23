@@ -7,11 +7,7 @@
 集成 RN 的步骤请参照 [官方文档](https://reactnative.cn/docs/0.51/integration-with-existing-apps.html#content)。
 这里注意一下项目的目录结构，所有 RN 相关均在 `ReactNative` 目录下。
 
-
-
-【pict】
-
-
+![目录结构](https://github.com/Xigtun/CCDemo/blob/master/Blog/Source/Screen%20Shot.png)
 
 
 相应地，`podfile` 和 `package.json` 要做一下相应调整。
